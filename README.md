@@ -10,8 +10,26 @@ The bot answers user queries by retrieving relevant context from documents and g
 - Query answering with **Groq LLM**
 - Source document traceability
 
+- ##Installation
+
+1.Clone the repository:
+git clone https://github.com/your-username/rag_chatbot.git
+cd rag_chatbot
+
+2.Create a virtual environment and activate it:
+python -m venv venv
+source venv/bin/activate   # For Linux/Mac
+venv\Scripts\activate      # For Windows
+
+3.Install dependencies:
+pip install -r requirements.txt
+
+4.Add your API keys in .env file:
+GROQ_API_KEY=your_groq_api_key
+
 
 ## Usage 
+
    1.Add your documents inside the data/ folder.
    2.Run the chatbot:python -m streamlit run app.py
    3.Enter your query and get answers with cited sources.
