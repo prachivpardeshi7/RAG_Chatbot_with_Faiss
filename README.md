@@ -13,7 +13,7 @@ The bot answers user queries by retrieving relevant context from documents and g
  ##Installation
 
 1.Clone the repository:
-git clone https://github.com/prachivpardeshi7/rag_chatbot_with_Faiss.git
+git clone https://github.com/prachivpardeshi7/rag_chatbot.git
 cd rag_chatbot<br>
 
 2.Create a virtual environment and activate it:<br>
