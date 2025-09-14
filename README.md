@@ -12,9 +12,9 @@ The bot answers user queries by retrieving relevant context from documents and g
 
 
 ## Usage 
--1.Add your documents inside the data/ folder.
--2.Run the chatbot:python -m streamlit run app.py
--3.Enter your query and get answers with cited sources.
-   -Eg: Enter your query: What is the objective of the HR policy?
-       Answer: The objective of the HR policy is to provide support to employees through continuity, communication, orientation, and mentoring.
+   1.Add your documents inside the data/ folder.
+   2.Run the chatbot:python -m streamlit run app.py
+   3.Enter your query and get answers with cited sources.
+      Eg: Enter your query: What is the objective of the HR policy?
+          Answer: The objective of the HR policy is to provide support to employees through continuity, communication, orientation, and mentoring.
 
