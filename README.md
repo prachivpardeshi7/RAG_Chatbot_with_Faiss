@@ -18,21 +18,21 @@ cd rag_chatbot<br>
 
 2.Create a virtual environment and activate it:<br>
 python -m venv venv<br>
-source venv/bin/activate   # For Linux/Mac
-venv\Scripts\activate      # For Windows
+source venv/bin/activate   # For Linux/Mac <br>
+venv\Scripts\activate      # For Windows < <br>
 
-3.Install dependencies:
-pip install -r requirements.txt
+3.Install dependencies: <br>
+pip install -r requirements.txt <br>
 
-4.Add your API keys in .env file:
-GROQ_API_KEY=your_groq_api_key
+4.Add your API keys in .env file:  <br>
+GROQ_API_KEY=your_groq_api_key  <br>
 
 
 ## Usage 
 
-   1.Add your documents inside the data/ folder.
-   2.Run the chatbot:python -m streamlit run app.py
-   3.Enter your query and get answers with cited sources.
-      Eg: Enter your query: What is the objective of the HR policy?
-          Answer: The objective of the HR policy is to provide support to employees through continuity, communication, orientation, and mentoring.
+   1.Add your documents inside the data/ folder. <br>
+   2.Run the chatbot:python -m streamlit run app.py <br>
+   3.Enter your query and get answers with cited sources. <br>
+      Eg: Enter your query: What is the objective of the HR policy? <br>
+          Answer: The objective of the HR policy is to provide support to employees through continuity, communication, orientation, and mentoring. <br>
 
