@@ -10,14 +10,14 @@ The bot answers user queries by retrieving relevant context from documents and g
 - Query answering with **Groq LLM**
 - Source document traceability
 
-- ##Installation
+ ##Installation
 
 1.Clone the repository:
 git clone https://github.com/your-username/rag_chatbot.git
-cd rag_chatbot
+cd rag_chatbot<br>
 
-2.Create a virtual environment and activate it:
-python -m venv venv
+2.Create a virtual environment and activate it:<br>
+python -m venv venv<br>
 source venv/bin/activate   # For Linux/Mac
 venv\Scripts\activate      # For Windows
 
