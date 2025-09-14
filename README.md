@@ -4,7 +4,7 @@ A Retrieval-Augmented Generation (RAG) based chatbot built with **LangChain**, *
 The bot answers user queries by retrieving relevant context from documents and generating accurate responses.
 
 ## Features
-- Loads and indexes PDF/text documents
+- Loads and indexes PDF document
 - Embedding generation using `all-MiniLM-L6-v2`
 - Vector search with **FAISS**
 - Query answering with **Groq LLM**
@@ -13,7 +13,7 @@ The bot answers user queries by retrieving relevant context from documents and g
  ##Installation
 
 1.Clone the repository:
-git clone https://github.com/your-username/rag_chatbot.git
+git clone https://github.com/prachivpardeshi7/rag_chatbot_with_Faiss.git
 cd rag_chatbot<br>
 
 2.Create a virtual environment and activate it:<br>
@@ -33,6 +33,6 @@ GROQ_API_KEY=your_groq_api_key  <br>
    1.Add your documents inside the data/ folder. <br>
    2.Run the chatbot:python -m streamlit run app.py <br>
    3.Enter your query and get answers with cited sources. <br>
-      Eg: Enter your query: What is the objective of the HR policy? <br>
+      Example:- Enter your query: What is the objective of the HR policy? <br>
           Answer: The objective of the HR policy is to provide support to employees through continuity, communication, orientation, and mentoring. <br>
 
