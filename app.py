@@ -36,7 +36,7 @@ def load_llm():
     )
 
 def main():
-    st.title("ChatBot (Groq Powered)")
+    st.title("RAG_ChatBot")
 
     if 'messages' not in st.session_state:
         st.session_state.messages = []
@@ -89,3 +89,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
